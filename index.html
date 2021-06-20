@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/f8f13875b2.js" crossorigin="anonymous"></script>
+    <title>Yassin's Portfolio</title>
+</head>
+<body>
+    <section class="introduction">
+        <nav>
+            <button id="logo" alt="home button" type="button">
+                <a href="#top">
+                    <img src="./Images/Glacial_Storm.png" alt="home button"/>
+                    <p id="Yassin-icon">Yassin's Portfolio</p>
+                </a>
+            </button>
+            
+            <ul class="navigation-links">
+                <li class="items item-1"><a href="#Projects">Projects</a></li>
+                <li class="items item-2"><a href="#About-Me">About Me</a></li>
+                <li class="items item-3"><a href="#Contact">Contact</a></li>
+            </ul>
+            <div id="burger-button">
+                <i class="fas fa-bars fa-3x"></i>
+            </div>
+            
+        </nav>
+        <!-- front end web developa, about section appearing just under, then projects then contact-->
+        <div class="introduction-about">
+            <h1>Yassin Moussaoui</h1>
+            <h2>Front End Web Developer</h2>
+            <button type="button"><p>Projects</p></button>
+            
+        </div>
+    </section>
+    <section class="About-Me">
+        <h3>About Me</h3>
+        <div class="about-me-text-container">
+            
+            <p>Nice to meet you, I've recently made a career change from Marketing
+                to Web development, and ever since have fell in love.
+                Since completing my 2nd year of Marketing, I've spent most of my time regarding
+                code learning about HTML, CSS, and JS through creating projects.
+                I wish to prove myself and learn whatever is needed in order to start working
+                in front end development, and appreciate it for looking at my listed projects below.
+            </p>
+        </div>
+
+    </section>
+    <section class="Projects">
+        <h2>Projects</h2>
+        
+        <div class="Blogr-Project">
+            <h3>Blogr Landing Page</h3>
+            <img src="./Images/desktop-preview.jpg" />
+            <p>This project was made on Frontendmentors, a website that provides real-world projects
+                in order to train your web development skills. Assets & requirements were provided, such as images and brand desired 
+                in order to achieve professional solutions.
+            </p>
+            <div class="Project-btns">
+                <button type="button"><a href="https://hardcore-fermat-762b02.netlify.app/" target="_blank">View Project</a></button>
+                <button type="button"><a href="#" target="_blank">View Code</a></button>
+            </div>
+            
+        </div>
+
+        <div class="Pexels-Project">
+            <h3>Pexels Photo Viewer</h3>
+            <img src="./Images/PexelsScreenshot.jpg"/>
+            <p>This Photography project taught me how to use APIs, as well as
+                important Javascript fundamentals. The website fetches from the Pexels website
+                in order to display a gallery of curated, high quality photos from the community.
+                Users can search for whatever kind of photo they wish, as long as someone has uploaded
+                something sort of relevant to the query. 
+            </p>
+            <div class="Project-btns">
+                <button type="button"><a href="https://serene-newton-be9291.netlify.app/" target="_blank">View Project</a></button>
+                <button type="button"><a href="#" target="_blank">View Code</a></button>
+
+            </div>
+            
+        </div>
+
+
+    </section>
+    <section class="Contact">
+        <h3>Contact Me</h3>
+        <div class="Contact-content">
+            <p>Please feel free to reach out and contact me!
+               Messages will go directly to my business inbox.
+            </p>
+
+            <form id="form" action="results.html" method="GET">
+                <div class="name-form">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+
+                <div class="email-form">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="message-form">
+                    <label for="message">Message</label>
+                    <textarea type="text" name="message" id="message" required  rows="4" columns="14">
+                </div>
+                
+                <div class="buttons-form">
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src='./app.js'></script>
+</body>
+</html>

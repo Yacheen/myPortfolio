@@ -1,0 +1,59 @@
+$black: rgb(43, 43, 43);
+$light-black: rgba(43, 43, 43, 0.9);
+$black-background: rgb(34, 34, 34);
+$light-pink: rgb(255, 238, 242);
+$pink: rgb(253, 222, 239);
+$light-purple: rgb(255, 200, 251);
+$purple: rgb(253, 153, 197);
+$blue-sapphire: rgb(16, 77, 168);
+$nav-font: 4rem;
+
+@mixin bigButtonsComponent {
+  background: none;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 1.4rem 3rem;
+  border-radius: 4%;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+@mixin smolButtonsComponent {
+  background: none;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 0.6rem 1.4rem;
+  border-radius: 4%;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0 auto;
+}
+
+@mixin projectStructureComponent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3%;
+  max-width: 90%;
+  padding: 2rem;
+  margin: auto auto 2rem auto;
+  background: $light-pink;
+}
+
+@mixin projectParagraphComponent {
+  max-width: 90%;
+  text-align: center;
+  color: $light-black;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+@mixin projectTitleComponent {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  color: $black;
+}

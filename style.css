@@ -1,0 +1,481 @@
+nav {
+  padding: 2rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+nav i {
+  color: #fddeef;
+}
+
+nav #logo {
+  background: none;
+  border: none;
+}
+
+nav #logo a {
+  text-decoration: none;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+nav #logo a img {
+  display: none;
+}
+
+nav #logo a p {
+  color: #fddeef;
+  font-size: 2.4rem;
+}
+
+nav .navigation-links {
+  list-style-type: none;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 80vw;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border-radius: 5%;
+  background: #ffeef2;
+  -webkit-transition: all ease-out 0.5s;
+  transition: all ease-out 0.5s;
+  -webkit-transform: translateY(-70%);
+          transform: translateY(-70%);
+}
+
+nav .navigation-links li {
+  cursor: pointer;
+  padding: 1rem;
+  border: 2px solid black;
+  margin: 1rem;
+  min-width: 50%;
+}
+
+nav .navigation-links a {
+  color: #2b2b2b;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+nav .navigation-links-active {
+  -webkit-transform: translateY(65%);
+          transform: translateY(65%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.Project-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 100%;
+}
+
+.introduction {
+  min-height: 60vh;
+  background: #fddeef;
+}
+
+.introduction .introduction-about {
+  margin: 3rem 1rem;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.introduction .introduction-about h1 {
+  font-size: 4rem;
+  color: #2b2b2b;
+}
+
+.introduction .introduction-about h2 {
+  font-size: 2rem;
+  color: #2b2b2b;
+  margin-bottom: 4rem;
+}
+
+.introduction .introduction-about button {
+  background: none;
+  border: 2px solid black;
+  padding: 1.4rem 3rem;
+  border-radius: 4%;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+.introduction .introduction-about > * {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.About-Me {
+  height: auto;
+  background: #222222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.About-Me h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  color: #2b2b2b;
+  color: #fddeef;
+  padding: 2rem 0rem 1rem 0rem;
+  font-size: 2.6rem;
+}
+
+.About-Me .about-me-text-container {
+  max-width: 80%;
+  height: auto;
+  background: rgba(43, 43, 43, 0.9);
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.About-Me .about-me-text-container > * {
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1.6rem;
+}
+
+.About-Me .about-me-text-container p {
+  color: #fddeef;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.Projects {
+  background: #fddeef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  height: auto;
+}
+
+.Projects h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem 0rem 3rem 0rem;
+  font-size: 2.6rem;
+  color: #2b2b2b;
+}
+
+.Projects .Blogr-Project {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 3%;
+  max-width: 90%;
+  padding: 2rem;
+  margin: auto auto 2rem auto;
+  background: #ffeef2;
+}
+
+.Projects .Blogr-Project h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  color: #2b2b2b;
+}
+
+.Projects .Blogr-Project img {
+  max-width: 90%;
+  margin-bottom: 2rem;
+}
+
+.Projects .Blogr-Project p {
+  max-width: 90%;
+  text-align: center;
+  color: rgba(43, 43, 43, 0.9);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.Projects .Blogr-Project button {
+  background: none;
+  border: 1px solid black;
+  padding: 0.6rem 1.4rem;
+  border-radius: 4%;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0 auto;
+}
+
+.Projects .Pexels-Project {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 3%;
+  max-width: 90%;
+  padding: 2rem;
+  margin: auto auto 2rem auto;
+  background: #ffeef2;
+}
+
+.Projects .Pexels-Project h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  color: #2b2b2b;
+}
+
+.Projects .Pexels-Project img {
+  max-width: 90%;
+  margin-bottom: 2rem;
+}
+
+.Projects .Pexels-Project p {
+  max-width: 90%;
+  text-align: center;
+  color: rgba(43, 43, 43, 0.9);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.Projects .Pexels-Project button {
+  background: none;
+  border: 1px solid black;
+  padding: 0.6rem 1.4rem;
+  border-radius: 4%;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0 auto;
+}
+
+.Contact {
+  height: auto;
+  background: #222222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Contact .Contact-content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 3%;
+  max-width: 90%;
+  padding: 2rem;
+  margin: auto auto 2rem auto;
+  background: #ffeef2;
+  background: rgba(43, 43, 43, 0.9);
+}
+
+.Contact input {
+  padding: 0.4rem;
+}
+
+.Contact div {
+  margin-bottom: 3rem;
+}
+
+.Contact h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  color: #2b2b2b;
+  color: #fddeef;
+  padding: 2rem 0rem 3rem 0rem;
+  font-size: 2.6rem;
+}
+
+.Contact p {
+  max-width: 90%;
+  text-align: center;
+  color: rgba(43, 43, 43, 0.9);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+  color: #fddeef;
+}
+
+.Contact .name-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fddeef;
+  font-size: 1.6rem;
+}
+
+.Contact .email-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fddeef;
+  font-size: 1.6rem;
+}
+
+.Contact .message-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fddeef;
+  font-size: 1.6rem;
+}
+
+.Contact .buttons-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+/*# sourceMappingURL=style.css.map */
