@@ -63,8 +63,8 @@ nav .navigation-links {
   left: 0;
   right: 0;
   text-align: center;
-  border-radius: 5%;
-  background: #ffeef2;
+  border-radius: 2%;
+  background: #2b2b2b;
   -webkit-transition: all ease-out 0.5s;
   transition: all ease-out 0.5s;
   -webkit-transform: translateY(-70%);
@@ -74,22 +74,22 @@ nav .navigation-links {
 nav .navigation-links li {
   cursor: pointer;
   padding: 1rem;
-  border: 2px solid black;
+  border: 2px solid #fddeef;
   margin: 1rem;
-  min-width: 50%;
 }
 
 nav .navigation-links a {
-  color: #2b2b2b;
+  color: #fddeef;
   text-decoration: none;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
+  min-width: 50%;
 }
 
 nav .navigation-links-active {
-  -webkit-transform: translateY(65%);
-          transform: translateY(65%);
+  -webkit-transform: translateY(85%);
+          transform: translateY(85%);
 }
 
 * {
@@ -159,11 +159,18 @@ a {
   font-weight: 700;
   font-size: 2rem;
   margin: 0 auto;
+  padding: none;
+  border: none;
 }
 
 .introduction .introduction-about > * {
   text-align: center;
   margin-bottom: 1rem;
+}
+
+.introduction .introduction-about a {
+  border: 2px solid black;
+  padding: 1.4rem 3rem;
 }
 
 .About-Me {
@@ -297,12 +304,16 @@ a {
 
 .Projects .Blogr-Project button {
   background: none;
-  border: 1px solid black;
-  padding: 0.6rem 1.4rem;
+  border: none;
   border-radius: 4%;
   font-weight: 700;
   font-size: 1.4rem;
   margin: 0 auto;
+}
+
+.Projects .Blogr-Project a {
+  border: 1px solid black;
+  padding: 1rem;
 }
 
 .Projects .Pexels-Project {
@@ -353,12 +364,16 @@ a {
 
 .Projects .Pexels-Project button {
   background: none;
-  border: 1px solid black;
-  padding: 0.6rem 1.4rem;
+  border: none;
   border-radius: 4%;
   font-weight: 700;
   font-size: 1.4rem;
   margin: 0 auto;
+}
+
+.Projects .Pexels-Project a {
+  border: 1px solid black;
+  padding: 1rem;
 }
 
 .Contact {
@@ -400,10 +415,6 @@ a {
   background: rgba(43, 43, 43, 0.9);
 }
 
-.Contact input {
-  padding: 0.4rem;
-}
-
 .Contact div {
   margin-bottom: 3rem;
 }
@@ -434,48 +445,25 @@ a {
   color: #fddeef;
 }
 
-.Contact .name-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  color: #fddeef;
-  font-size: 1.6rem;
+.Contact .email-link {
+  margin-bottom: 0;
 }
 
-.Contact .email-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  color: #fddeef;
-  font-size: 1.6rem;
+.Contact .email-link p {
+  text-align: left;
+  margin-bottom: 0;
 }
 
-.Contact .message-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  color: #fddeef;
-  font-size: 1.6rem;
+.Contact .email-link i {
+  margin-right: 1rem;
 }
 
-.Contact .buttons-form {
+.Contact .email-link a {
+  margin-bottom: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  font-size: 1.6rem;
+  color: #fddeef;
 }
 /*# sourceMappingURL=style.css.map */

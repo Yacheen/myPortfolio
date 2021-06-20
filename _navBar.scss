@@ -40,26 +40,26 @@ nav {
     left: 0;
     right: 0;
     text-align: center;
-    border-radius: 5%;
-    background: $light-pink;
+    border-radius: 2%;
+    background: $black;
     transition: all ease-out 0.5s;
     transform: translateY(-70%);
     li {
       cursor: pointer;
       padding: 1rem;
-      border: 2px solid black;
+      border: 2px solid $pink;
       margin: 1rem;
-      min-width: 50%;
     }
     a {
-      color: $black;
+      color: $pink;
       text-decoration: none;
       font-weight: 700;
       font-family: "Roboto", sans-serif;
       font-size: 2rem;
+      min-width: 50%;
     }
   }
   .navigation-links-active {
-    transform: translateY(65%);
+    transform: translateY(85%);
   }
 }

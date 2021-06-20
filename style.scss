@@ -46,11 +46,17 @@ a {
     }
     button {
       @include bigButtonsComponent;
+      padding: none;
+      border: none;
     }
 
     > * {
       text-align: center;
       margin-bottom: 1rem;
+    }
+    a {
+      border: 2px solid rgb(0, 0, 0);
+      padding: 1.4rem 3rem;
     }
   }
 }
@@ -124,6 +130,10 @@ a {
     button {
       @include smolButtonsComponent;
     }
+    a {
+      border: 1px solid black;
+      padding: 1rem;
+    }
   }
   .Pexels-Project {
     @include projectStructureComponent;
@@ -140,6 +150,10 @@ a {
     button {
       @include smolButtonsComponent;
     }
+    a {
+      border: 1px solid black;
+      padding: 1rem;
+    }
   }
 }
 // C O N T A C T S E C T I O N
@@ -155,9 +169,7 @@ a {
     @include projectStructureComponent;
     background: $light-black;
   }
-  input {
-    padding: 0.4rem;
-  }
+
   div {
     margin-bottom: 3rem;
   }
@@ -172,30 +184,22 @@ a {
     @include projectParagraphComponent;
     color: $pink;
   }
-  .name-form {
-    display: flex;
-    flex-direction: column;
 
-    color: $pink;
-    font-size: 1.6rem;
-  }
-  .email-form {
-    display: flex;
-    flex-direction: column;
-
-    color: $pink;
-    font-size: 1.6rem;
-  }
-  .message-form {
-    display: flex;
-    flex-direction: column;
-
-    color: $pink;
-    font-size: 1.6rem;
-  }
-  .buttons-form {
-    display: flex;
-    justify-content: space-evenly;
+  .email-link {
+    margin-bottom: 0;
+    p {
+      text-align: left;
+      margin-bottom: 0;
+    }
+    i {
+      margin-right: 1rem;
+    }
+    a {
+      margin-bottom: 1rem;
+      display: flex;
+      font-size: 1.6rem;
+      color: $pink;
+    }
   }
 }
 

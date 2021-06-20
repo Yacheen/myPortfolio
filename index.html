@@ -19,9 +19,9 @@
             </button>
             
             <ul class="navigation-links">
-                <li class="items item-1"><a href="#Projects">Projects</a></li>
-                <li class="items item-2"><a href="#About-Me">About Me</a></li>
-                <li class="items item-3"><a href="#Contact">Contact</a></li>
+                <a href="#About-Me"><li class="items item-1">About Me</li></a>
+                <a href="#Projects"><li class="items item-2">Projects</li></a>
+                <a href="#Contact"><li class="items item-3">Contact Me</li></a>
             </ul>
             <div id="burger-button">
                 <i class="fas fa-bars fa-3x"></i>
@@ -32,11 +32,11 @@
         <div class="introduction-about">
             <h1>Yassin Moussaoui</h1>
             <h2>Front End Web Developer</h2>
-            <button type="button"><p>Projects</p></button>
+            <button type="button"><a href="#Projects">Projects</a></button>
             
         </div>
     </section>
-    <section class="About-Me">
+    <section class="About-Me" id="About-Me">
         <h3>About Me</h3>
         <div class="about-me-text-container">
             
@@ -50,7 +50,7 @@
         </div>
 
     </section>
-    <section class="Projects">
+    <section class="Projects" id="Projects">
         <h2>Projects</h2>
         
         <div class="Blogr-Project">
@@ -86,36 +86,34 @@
 
 
     </section>
-    <section class="Contact">
+    
+    <section class="Contact" id="Contact">
         <h3>Contact Me</h3>
         <div class="Contact-content">
-            <p>Please feel free to reach out and contact me!
-               Messages will go directly to my business inbox.
-            </p>
-
-            <form id="form" action="results.html" method="GET">
-                <div class="name-form">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" required>
-                </div>
-
-                <div class="email-form">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-
-                <div class="message-form">
-                    <label for="message">Message</label>
-                    <textarea type="text" name="message" id="message" required  rows="4" columns="14">
-                </div>
+            <p>Please feel free to reach out if you are interested;
+                I appreciate you taking the time to view my projects.
+               <p>Click below to email me!</p>
                 
-                <div class="buttons-form">
-                    <button type="reset">Reset</button>
-                    <button type="submit">Submit</button>
-                </div>
-            </form>
+               <div class="email-link">
+                   <a href="mailto:yassinmoussaouibusiness@gmail.com" target="_blank">
+                        <span style="color: pink;">
+                            <i class="fas fa-envelope fa-2x"></i>
+                        </span>
+                        <p>Email Me</p>
+                    </a>
+                    <a href="https://github.com/Yacheen?tab=repositories" target="_blank">
+                        <span style="color: pink;">
+                            <i class="fab fa-github fa-2x"></i>
+                        </span>
+                        <p>Github</p>
+                    </a>
+                    <p>or</p>
+                    <p>yassinmoussaouibusiness@gmail.com</p>
+               </div>
+               
+
         </div>
     </section>
-    <script src='./app.js'></script>
+    <script src="app.js"></script>
 </body>
 </html>
