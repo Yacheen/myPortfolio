@@ -413,10 +413,18 @@ a {
   margin: auto auto 2rem auto;
   background: #fddeef;
   background: rgba(43, 43, 43, 0.9);
+  position: relative;
+  padding: 0;
 }
 
-.Contact div {
-  margin-bottom: 3rem;
+.Contact .Contact-content .contact-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem;
 }
 
 .Contact h3 {
@@ -443,27 +451,44 @@ a {
   line-height: 3rem;
   margin-bottom: 2rem;
   color: #fddeef;
+  padding: 0;
+  margin: 0;
 }
 
 .Contact .email-link {
-  margin-bottom: 0;
-}
-
-.Contact .email-link p {
-  text-align: left;
-  margin-bottom: 0;
-}
-
-.Contact .email-link i {
-  margin-right: 1rem;
-}
-
-.Contact .email-link a {
-  margin-bottom: 1rem;
+  background: #161616;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 1.6rem;
+  margin-bottom: 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  min-width: 100%;
+  padding: 1.4rem 0rem 1rem 0rem;
+}
+
+.Contact .email-link p {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.Contact .email-link a {
+  min-width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
   color: #fddeef;
 }
 /*# sourceMappingURL=style.css.map */
