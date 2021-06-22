@@ -26,6 +26,7 @@ a {
 
 .introduction {
   min-height: 60vh;
+
   background: white;
   .introduction-about {
     margin: 3rem 1rem;
@@ -33,6 +34,9 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    .intro-image-container {
+      display: none;
+    }
 
     h1 {
       font-size: 4rem;
@@ -127,12 +131,13 @@ a {
       @include projectParagraphComponent;
     }
 
-    button {
-      @include smolButtonsComponent;
-    }
     a {
+      @include smolButtonsComponent;
       border: 1px solid black;
       padding: 1rem;
+      &:hover {
+        background: $light-pink;
+      }
     }
   }
   .Pexels-Project {
@@ -147,12 +152,13 @@ a {
     p {
       @include projectParagraphComponent;
     }
-    button {
-      @include smolButtonsComponent;
-    }
     a {
+      @include smolButtonsComponent;
       border: 1px solid black;
       padding: 1rem;
+      &:hover {
+        background: $light-pink;
+      }
     }
   }
 }

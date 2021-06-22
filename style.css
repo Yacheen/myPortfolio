@@ -3,6 +3,10 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -10,6 +14,19 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background: rgba(0, 0, 0, 0.8);
+}
+
+nav .nav-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 100%;
 }
 
 nav i {
@@ -23,7 +40,6 @@ nav #logo {
 
 nav #logo a {
   text-decoration: none;
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,6 +85,8 @@ nav .navigation-links {
   transition: all ease-out 0.5s;
   -webkit-transform: translateY(-70%);
           transform: translateY(-70%);
+  -webkit-filter: drop-shadow(0 0 2rem black);
+          filter: drop-shadow(0 0 2rem black);
 }
 
 nav .navigation-links li {
@@ -138,6 +156,10 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.introduction .introduction-about .intro-image-container {
+  display: none;
 }
 
 .introduction .introduction-about h1 {
@@ -302,18 +324,19 @@ a {
   margin-bottom: 2rem;
 }
 
-.Projects .Blogr-Project button {
+.Projects .Blogr-Project a {
   background: none;
   border: none;
   border-radius: 4%;
   font-weight: 700;
   font-size: 1.4rem;
   margin: 0 auto;
-}
-
-.Projects .Blogr-Project a {
   border: 1px solid black;
   padding: 1rem;
+}
+
+.Projects .Blogr-Project a:hover {
+  background: #ffeef2;
 }
 
 .Projects .Pexels-Project {
@@ -362,18 +385,19 @@ a {
   margin-bottom: 2rem;
 }
 
-.Projects .Pexels-Project button {
+.Projects .Pexels-Project a {
   background: none;
   border: none;
   border-radius: 4%;
   font-weight: 700;
   font-size: 1.4rem;
   margin: 0 auto;
-}
-
-.Projects .Pexels-Project a {
   border: 1px solid black;
   padding: 1rem;
+}
+
+.Projects .Pexels-Project a:hover {
+  background: #ffeef2;
 }
 
 .Contact {
@@ -490,5 +514,234 @@ a {
           align-items: center;
   padding: 0;
   color: #fddeef;
+}
+
+@media screen and (min-width: 500px) {
+  .introduction {
+    min-height: 35vh;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  #burger-button {
+    display: none;
+  }
+  nav {
+    padding: 0;
+  }
+  nav .nav-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 90%;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  nav .nav-content #logo a p {
+    font-size: 3rem;
+  }
+  nav .nav-content .navigation-links {
+    all: initial;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav .nav-content .navigation-links a {
+    all: initial;
+    padding: 2rem;
+    cursor: pointer;
+  }
+  nav .nav-content .navigation-links a:hover {
+    background: #5c5c5c;
+    border-radius: 8%;
+  }
+  nav .nav-content .navigation-links a li {
+    all: initial;
+    border: none;
+    color: #fddeef;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+  .introduction .introduction-about {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    min-height: 35vh;
+    max-width: 90%;
+    margin: 8rem auto;
+  }
+  .introduction .introduction-about .intro-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-right: 3rem;
+    padding: 0;
+  }
+  .introduction .introduction-about .intro-text h1 {
+    white-space: nowrap;
+    font-size: 8rem;
+  }
+  .introduction .introduction-about .intro-text h2 {
+    margin-top: 2.5rem;
+    font-size: 4rem;
+  }
+  .introduction .introduction-about .intro-text button {
+    margin: 2.5rem auto 0 0;
+    padding: 0;
+  }
+  .introduction .introduction-about .intro-text button a {
+    border: 4px solid black;
+    font-size: 3rem;
+    padding: 2.8rem 6rem;
+  }
+  .introduction .introduction-about .intro-text button a:hover {
+    background: #fddeef;
+  }
+  .introduction .introduction-about .intro-image-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-filter: drop-shadow(0 0 0.5rem black);
+            filter: drop-shadow(0 0 0.5rem black);
+  }
+  .introduction .introduction-about .intro-image-container img {
+    border-radius: 5%;
+    max-width: 100%;
+  }
+  .About-Me h3 {
+    font-size: 4rem;
+  }
+  .About-Me .about-me-text-container {
+    width: 90rem;
+  }
+  .About-Me .about-me-text-container p {
+    text-align: left;
+    font-size: 2rem;
+  }
+  .Projects {
+    min-height: 80vh;
+    background: #ffeef2;
+  }
+  .Projects h2 {
+    font-size: 4rem;
+  }
+  .Projects .Projects-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 5rem;
+    min-width: 90%;
+  }
+  .Projects .Projects-container .Blogr-Project {
+    width: 50rem;
+    height: 75rem;
+    margin: 0;
+    padding: 0;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .Projects .Projects-container .Blogr-Project h3 {
+    margin: 0;
+    padding: 0;
+  }
+  .Projects .Projects-container .Blogr-Project p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  .Projects .Projects-container .Blogr-Project img {
+    margin: 0;
+    padding: 0;
+  }
+  .Projects .Projects-container .Blogr-Project .Project-btns a {
+    background: none;
+    border: none;
+    border-radius: 4%;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+  .Projects .Projects-container .Blogr-Project .Project-btns a:hover {
+    background: #ffeef2;
+  }
+  .Projects .Projects-container .Pexels-Project {
+    width: 50rem;
+    height: 75rem;
+    margin: 0;
+    padding: 0;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .Projects .Projects-container .Pexels-Project h3 {
+    margin: 0;
+    padding: 0;
+  }
+  .Projects .Projects-container .Pexels-Project p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  .Projects .Projects-container .Pexels-Project img {
+    padding: 0;
+    margin: 0;
+  }
+  .Projects .Projects-container .Pexels-Project .Project-btns a {
+    background: none;
+    border: none;
+    border-radius: 4%;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+  .Projects .Projects-container .Pexels-Project .Project-btns a:hover {
+    background: #ffeef2;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .introduction .introduction-about {
+    min-height: 35vh;
+  }
+  .introduction .introduction-about .intro-image-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .introduction .introduction-about .intro-image-container img {
+    max-width: 90%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
