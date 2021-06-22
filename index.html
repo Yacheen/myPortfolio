@@ -6,84 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
     <script src="https://kit.fontawesome.com/f8f13875b2.js" crossorigin="anonymous"></script>
-    <title>Yassin's Portfolio</title>
+    <title>Yassin | Portfolio</title>
 </head>
 <body>
     <section class="introduction">
         <nav>
-            <button id="logo" alt="home button" type="button">
-                <a href="#top">
-                    <img src="./Images/Glacial_Storm.png" alt="home button"/>
-                    <p id="Yassin-icon">Yassin's Portfolio</p>
-                </a>
-            </button>
-            
-            <ul class="navigation-links">
-                <a href="#About-Me"><li class="items item-1">About Me</li></a>
-                <a href="#Projects"><li class="items item-2">Projects</li></a>
-                <a href="#Contact"><li class="items item-3">Contact Me</li></a>
-            </ul>
-            <div id="burger-button">
-                <i class="fas fa-bars fa-3x"></i>
-            </div>
-            
+            <div class="nav-content">
+                <button id="logo" alt="home button" type="button">
+                    <a href="#top">
+                        <img src="./Images/Glacial_Storm.png" alt="home button"/>
+                        <p id="Yassin-icon">Yassin's Portfolio</p>
+                    </a>
+                </button>
+                
+                <ul class="navigation-links">
+                    <a href="#About-Me"><li class="items item-1">About</li></a>
+                    <a href="#Projects"><li class="items item-2">Projects</li></a>
+                    <a href="#Contact"><li class="items item-3">Contact Me</li></a>
+                </ul>
+                <div id="burger-button">
+                    <i class="fas fa-bars fa-3x"></i>
+                </div>
+            </div>  
         </nav>
         <!-- front end web developa, about section appearing just under, then projects then contact-->
         <div class="introduction-about">
-            <h1>Yassin Moussaoui</h1>
-            <h2>Front End Web Developer</h2>
-            <button type="button"><a href="#Projects">Projects</a></button>
+            <div class="intro-text">
+                <h1>Yassin Moussaoui</h1>
+                <h2>Front End Web Developer</h2>
+                <button type="button"><a href="#Projects">Projects</a></button>
+
+            </div>
+                <div class="intro-image-container">
+                <img src="./Images/professional-intro-photo-compressed.jpeg" />
+            </div>
             
+
         </div>
     </section>
     <section class="About-Me" id="About-Me">
         <h3>About Me</h3>
         <div class="about-me-text-container">
-            <p>Nice to meet you, I've recently made a career change from Marketing
-                to Web development, and ever since have fell in love.
-                Since completing my 2nd year of Marketing, I've spent most of my time regarding
-                code learning about HTML, CSS, and JS through creating projects.
-                I wish to prove myself and learn whatever is needed in order to start working
-                in front end development, and appreciate you for looking at my listed projects below.
+            <p>Nice to meet you! My name is Yassin, and I've recently made a career change from Marketing
+                to Web development, and ever since have fell in love.<br><br>
+                Since completing my 2nd year of education, I've spent most of my summer regarding
+                code improving my HTML, CSS, and JS skills through creating <strong>responsive</strong> websites & projects.<br><br>
+                I'm hungry to improve and learn whatever is needed in order to start working
+                in Software development, and appreciate you for looking at my listed projects below.
             </p>
         </div>
 
     </section>
     <section class="Projects" id="Projects">
         <h2>Projects</h2>
-        
-        <div class="Blogr-Project">
-            <h3>Blogr Landing Page</h3>
-            <img src="./Images/desktop-preview.jpg" />
-            <p>This project was made on Frontendmentors, a website that provides real-world projects
-                in order to train your web development skills. Assets & requirements were provided, such as images and brand desired 
-                in order to achieve professional solutions.
-            </p>
-            <div class="Project-btns">
-                <button type="button"><a href="https://hardcore-fermat-762b02.netlify.app/" target="_blank">View Project</a></button>
-                <button type="button"><a href="https://github.com/Yacheen/Blogr-landing-page" target="_blank">View Code</a></button>
+        <div class="Projects-container">
+            <div class="Blogr-Project">
+                <h3>Mock Landing Page</h3>
+                <img src="./Images/desktop-preview.jpg" />
+                <p>This project was made on Frontendmentors, a website that provides real-world problems
+                    to train web development skills. Assets & requirements were provided, such as images and brand desired 
+                    in order to achieve a professional solution,
+                    significantly improving my design and problem-solving skills 
+                </p>
+                <div class="Project-btns">
+                    <a href="https://hardcore-fermat-762b02.netlify.app/" target="_blank">View Project</a>
+                    <a href="https://github.com/Yacheen/Blogr-landing-page" target="_blank">View Code</a>
+                </div>
             </div>
-            
-        </div>
-
-        <div class="Pexels-Project">
-            <h3>Pexels Photo Viewer</h3>
-            <img src="./Images/PexelsScreenshot.jpg"/>
-            <p>This Photography project taught me how to use APIs, as well as
-                important Javascript fundamentals. The website fetches from the Pexels website
-                in order to display a gallery of curated, high quality photos from the community.
-                Users can search for whatever kind of photo they wish, as long as someone has uploaded
-                something sort of relevant to the query. 
-            </p>
-            <div class="Project-btns">
-                <button type="button"><a href="https://serene-newton-be9291.netlify.app/" target="_blank">View Project</a></button>
-                <button type="button"><a href="https://github.com/Yacheen/PexelsAPI-photo-viewer" target="_blank">View Code</a></button>
-
+    
+            <div class="Pexels-Project">
+                <h3>Pexels Photo Viewer</h3>
+                <img src="./Images/pexelsscreenshotforprojects.png"/>
+                <p>This website fetches from the Pexels website API
+                    to display a gallery of <strong>ONLY</strong> curated, high quality photos from the community.
+                    Users can search for whatever kind of photo, as long as someone has uploaded
+                    something sort of relevant to the query. This Photography project taught me how to use APIs, as well as
+                    important Javascript fundamentals to create a dynamic photo generator. 
+                </p>
+                <div class="Project-btns">
+                    <a href="https://serene-newton-be9291.netlify.app/" target="_blank">View Project</a>
+                    <a href="https://github.com/Yacheen/PexelsAPI-photo-viewer" target="_blank">View Code</a>
+    
+                </div>
             </div>
-            
-        </div>
-
-
+        </div> 
     </section>
     
     <section class="Contact" id="Contact">
