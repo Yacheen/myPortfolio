@@ -729,6 +729,9 @@ a {
   .Projects .Projects-container .Pexels-Project .Project-btns a:hover {
     background: #ffeef2;
   }
+  .Contact h3 {
+    font-size: 4rem;
+  }
 }
 
 @media screen and (min-width: 1600px) {
