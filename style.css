@@ -100,7 +100,7 @@ nav .navigation-links a {
   color: #fddeef;
   text-decoration: none;
   font-weight: 700;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 2rem;
   min-width: 50%;
 }
@@ -564,6 +564,7 @@ a {
     color: #fddeef;
     font-size: 3rem;
     cursor: pointer;
+    font-family: "Poppins", sans-serif;
   }
   .introduction .introduction-about {
     -webkit-box-orient: horizontal;

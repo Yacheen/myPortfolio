@@ -28,10 +28,12 @@
         all: initial;
         list-style-type: none;
         display: flex;
+
         a {
           all: initial;
           padding: 2rem;
           cursor: pointer;
+
           &:hover {
             background: rgb(92, 92, 92);
             border-radius: 8%;
@@ -42,6 +44,7 @@
             color: $pink;
             font-size: 3rem;
             cursor: pointer;
+            font-family: "Poppins", sans-serif;
           }
         }
       }
