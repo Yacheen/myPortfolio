@@ -126,6 +126,8 @@ html {
 a {
   text-decoration: none;
   color: #2b2b2b;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .Project-btns {
@@ -163,6 +165,7 @@ a {
 }
 
 .introduction .introduction-about h1 {
+  font-family: "Poppins", sans-serif;
   font-size: 4rem;
   color: #2b2b2b;
 }
@@ -451,6 +454,10 @@ a {
   padding: 2rem;
 }
 
+.Contact .Contact-content .contact-message p {
+  font-size: 2rem;
+}
+
 .Contact h3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -553,6 +560,8 @@ a {
     all: initial;
     padding: 2rem;
     cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
   }
   nav .nav-content .navigation-links a:hover {
     background: #5c5c5c;
@@ -606,6 +615,8 @@ a {
   .introduction .introduction-about .intro-text button {
     margin: 2.5rem auto 0 0;
     padding: 0;
+    -webkit-transition: all ease 1s;
+    transition: all ease 1s;
   }
   .introduction .introduction-about .intro-text button a {
     border: 4px solid black;
@@ -680,6 +691,7 @@ a {
     margin: 0;
     padding: 0;
     text-align: left;
+    font-size: 2rem;
   }
   .Projects .Projects-container .Blogr-Project img {
     margin: 0;
@@ -693,6 +705,7 @@ a {
     font-size: 1.4rem;
     margin: 0 auto;
     border: 1px solid black;
+    font-size: 2rem;
   }
   .Projects .Projects-container .Blogr-Project .Project-btns a:hover {
     background: #ffeef2;
@@ -712,6 +725,7 @@ a {
   .Projects .Projects-container .Pexels-Project p {
     margin: 0;
     padding: 0;
+    font-size: 2rem;
     text-align: left;
   }
   .Projects .Projects-container .Pexels-Project img {
@@ -726,6 +740,7 @@ a {
     font-size: 1.4rem;
     margin: 0 auto;
     border: 1px solid black;
+    font-size: 2rem;
   }
   .Projects .Projects-container .Pexels-Project .Project-btns a:hover {
     background: #ffeef2;

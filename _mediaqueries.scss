@@ -33,6 +33,7 @@
           all: initial;
           padding: 2rem;
           cursor: pointer;
+          transition: all 0.3s;
 
           &:hover {
             background: rgb(92, 92, 92);
@@ -80,6 +81,7 @@
         button {
           margin: 2.5rem auto 0 0;
           padding: 0;
+          transition: all ease 1s;
           a {
             border: 4px solid black;
             font-size: 3rem;
@@ -144,6 +146,7 @@
           margin: 0;
           padding: 0;
           text-align: left;
+          font-size: 2rem;
         }
         img {
           margin: 0;
@@ -155,6 +158,7 @@
           a {
             @include smolButtonsComponent;
             border: 1px solid black;
+            font-size: 2rem;
             &:hover {
               background: $light-pink;
             }
@@ -174,6 +178,7 @@
         p {
           margin: 0;
           padding: 0;
+          font-size: 2rem;
           text-align: left;
         }
         img {
@@ -185,6 +190,7 @@
           a {
             @include smolButtonsComponent;
             border: 1px solid black;
+            font-size: 2rem;
             &:hover {
               background: $light-pink;
             }
