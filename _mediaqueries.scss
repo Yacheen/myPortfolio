@@ -1,221 +1,255 @@
 //tablet view
 @media screen and (min-width: 500px) {
-  .introduction {
-    min-height: 35vh;
-  }
+    .introduction {
+        min-height: 35vh;
+    }
 }
 
 @media screen and (min-width: 1080px) {
-  #burger-button {
-    display: none;
-  }
-  nav {
-    padding: 0;
-
-    .nav-content {
-      display: flex;
-      min-width: 90%;
-      margin: auto;
-      justify-content: space-between;
-      #logo {
-        a {
-          p {
-            font-size: 3rem;
-          }
-        }
-      }
-      .navigation-links {
-        all: initial;
-        list-style-type: none;
-        display: flex;
-
-        a {
-          all: initial;
-          padding: 2rem;
-          cursor: pointer;
-          transition: all 0.3s;
-
-          &:hover {
-            background: rgb(92, 92, 92);
-            border-radius: 8%;
-          }
-          li {
-            all: initial;
-            border: none;
-            color: $pink;
-            font-size: 3rem;
-            cursor: pointer;
-            font-family: "Poppins", sans-serif;
-          }
-        }
-      }
+    #burger-button {
+        display: none;
     }
-  }
-  //end of nav bar
-
-  .introduction {
-    .introduction-about {
-      flex-direction: row;
-      justify-content: space-between;
-      min-height: 35vh;
-      max-width: 90%;
-      margin: 8rem auto;
-      .intro-text {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        margin-right: 3rem;
+    nav {
         padding: 0;
 
-        h1 {
-          white-space: nowrap;
+        .nav-content {
+            display: flex;
+            min-width: 90%;
+            margin: auto;
+            justify-content: space-between;
+            #logo {
+                a {
+                    p {
+                        font-size: 3rem;
+                    }
+                }
+            }
+            .navigation-links {
+                all: initial;
+                list-style-type: none;
+                display: flex;
 
-          font-size: 8rem;
+                a {
+                    all: initial;
+                    padding: 2rem;
+                    cursor: pointer;
+                    transition: all 0.3s;
+
+                    &:hover {
+                        background: rgb(92, 92, 92);
+                        border-radius: 8%;
+                    }
+                    li {
+                        all: initial;
+                        border: none;
+                        color: $pink;
+                        font-size: 3rem;
+                        cursor: pointer;
+                        font-family: "Poppins", sans-serif;
+                    }
+                }
+            }
         }
+    }
+    //end of nav bar
+
+    .introduction {
+        .introduction-about {
+            flex-direction: row;
+            justify-content: space-between;
+            min-height: 35vh;
+            max-width: 90%;
+            margin: 8rem auto;
+            .intro-text {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                margin-right: 3rem;
+                padding: 0;
+
+                h1 {
+                    white-space: nowrap;
+
+                    font-size: 8rem;
+                }
+                h2 {
+                    margin-top: 2.5rem;
+                    font-size: 4rem;
+                }
+
+                button {
+                    margin: 2.5rem auto 0 0;
+                    padding: 0;
+                    transition: all ease 1s;
+                    a {
+                        border: 4px solid black;
+                        font-size: 3rem;
+                        padding: 2.8rem 6rem;
+                        &:hover {
+                            background: $pink;
+                        }
+                    }
+                }
+            }
+            .intro-image-container {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                filter: drop-shadow(0 0 0.5rem black);
+
+                img {
+                    border-radius: 5%;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    .About-Me {
+        h3 {
+            font-size: 4rem;
+        }
+        .about-me-text-container {
+            width: 90rem;
+            p {
+                text-align: left;
+                font-size: 2rem;
+            }
+        }
+    }
+    .Projects {
+        display: block;
+        min-height: 80vh;
+        background: $light-pink;
         h2 {
-          margin-top: 2.5rem;
-          font-size: 4rem;
+            font-size: 4rem;
         }
+        .Projects-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: auto;
+            padding-bottom: 5rem;
+            min-width: 90%;
 
-        button {
-          margin: 2.5rem auto 0 0;
-          padding: 0;
-          transition: all ease 1s;
-          a {
-            border: 4px solid black;
-            font-size: 3rem;
-            padding: 2.8rem 6rem;
-            &:hover {
-              background: $pink;
+            .Blogr-Project {
+                width: 50rem;
+                height: 75rem;
+                margin: 0;
+                padding: 0;
+                justify-content: space-around;
+
+                h3 {
+                    margin: 0;
+                    padding: 0;
+                }
+                p {
+                    margin: 0;
+                    padding: 0;
+                    text-align: left;
+                    font-size: 2rem;
+                }
+                img {
+                    margin: 0;
+                    padding: 0;
+                }
+
+                //edit this next
+                .Project-btns {
+                    a {
+                        @include smolButtonsComponent;
+                        border: 1px solid black;
+                        font-size: 2rem;
+                        &:hover {
+                            background: $light-pink;
+                        }
+                    }
+                }
             }
-          }
+
+            .FFXIV-Project {
+                width: 50rem;
+                height: 75rem;
+                margin: 0;
+                padding: 0;
+                justify-content: space-around;
+                h3 {
+                    margin: 0;
+                    padding: 0;
+                }
+                p {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 2rem;
+                    text-align: left;
+                }
+                img {
+                    padding: 0;
+                    margin: 0;
+                }
+
+                .Project-btns {
+                    a {
+                        @include smolButtonsComponent;
+                        border: 1px solid black;
+                        font-size: 2rem;
+                        &:hover {
+                            background: $light-pink;
+                        }
+                    }
+                }
+            }
+            .Pexels-Project {
+                width: 50rem;
+                height: 75rem;
+                margin: 0;
+                padding: 0;
+                justify-content: space-around;
+                h3 {
+                    margin: 0;
+                    padding: 0;
+                }
+                p {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 2rem;
+                    text-align: left;
+                }
+                img {
+                    padding: 0;
+                    margin: 0;
+                }
+
+                .Project-btns {
+                    a {
+                        @include smolButtonsComponent;
+                        border: 1px solid black;
+                        font-size: 2rem;
+                        &:hover {
+                            background: $light-pink;
+                        }
+                    }
+                }
+            }
         }
-      }
-      .intro-image-container {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        filter: drop-shadow(0 0 0.5rem black);
-
-        img {
-          border-radius: 5%;
-          max-width: 100%;
-        }
-      }
     }
-  }
-  .About-Me {
-    h3 {
-      font-size: 4rem;
-    }
-    .about-me-text-container {
-      width: 90rem;
-      p {
-        text-align: left;
-        font-size: 2rem;
-      }
-    }
-  }
-  .Projects {
-    min-height: 80vh;
-    background: $light-pink;
-    h2 {
-      font-size: 4rem;
-    }
-    .Projects-container {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      margin: auto;
-      padding-bottom: 5rem;
-      min-width: 90%;
-
-      .Blogr-Project {
-        width: 50rem;
-        height: 75rem;
-        margin: 0;
-        padding: 0;
-        justify-content: space-around;
-
+    .Contact {
         h3 {
-          margin: 0;
-          padding: 0;
+            font-size: 4rem;
         }
-        p {
-          margin: 0;
-          padding: 0;
-          text-align: left;
-          font-size: 2rem;
-        }
-        img {
-          margin: 0;
-          padding: 0;
-        }
-
-        //edit this next
-        .Project-btns {
-          a {
-            @include smolButtonsComponent;
-            border: 1px solid black;
-            font-size: 2rem;
-            &:hover {
-              background: $light-pink;
-            }
-          }
-        }
-      }
-      .Pexels-Project {
-        width: 50rem;
-        height: 75rem;
-        margin: 0;
-        padding: 0;
-        justify-content: space-around;
-        h3 {
-          margin: 0;
-          padding: 0;
-        }
-        p {
-          margin: 0;
-          padding: 0;
-          font-size: 2rem;
-          text-align: left;
-        }
-        img {
-          padding: 0;
-          margin: 0;
-        }
-
-        .Project-btns {
-          a {
-            @include smolButtonsComponent;
-            border: 1px solid black;
-            font-size: 2rem;
-            &:hover {
-              background: $light-pink;
-            }
-          }
-        }
-      }
     }
-  }
-  .Contact {
-    h3 {
-      font-size: 4rem;
-    }
-  }
 }
 
 @media screen and (min-width: 1600px) {
-  .introduction {
-    .introduction-about {
-      min-height: 35vh;
-      .intro-image-container {
-        justify-content: center;
-        img {
-          max-width: 90%;
+    .introduction {
+        .introduction-about {
+            min-height: 35vh;
+            .intro-image-container {
+                justify-content: center;
+                img {
+                    max-width: 90%;
+                }
+            }
         }
-      }
     }
-  }
 }

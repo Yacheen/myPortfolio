@@ -9,50 +9,51 @@ $blue-sapphire: rgb(16, 77, 168);
 $nav-font: 4rem;
 
 @mixin bigButtonsComponent {
-  background: none;
-  border: 2px solid rgb(0, 0, 0);
-  padding: 1.4rem 3rem;
-  border-radius: 4%;
-  font-weight: 700;
-  font-size: 2rem;
-  margin: 0 auto;
+    background: none;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1.4rem 3rem;
+    border-radius: 4%;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0 auto;
 }
 
 @mixin smolButtonsComponent {
-  background: none;
-  border: none;
-  border-radius: 4%;
-  font-weight: 700;
-  font-size: 1.4rem;
-  margin: 0 auto;
+    background: none;
+    border: none;
+    border-radius: 4%;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 0 auto;
 }
 
 @mixin projectStructureComponent {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 3%;
-  max-width: 90%;
-  padding: 2rem;
-  margin: auto auto 2rem auto;
-  background: $pink;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2%;
+    min-height: 100vh;
+    max-width: 90%;
+    padding: 2rem;
+    margin: auto auto 2rem auto;
+    background: $pink;
 }
 
 @mixin projectParagraphComponent {
-  max-width: 90%;
-  text-align: center;
-  color: $light-black;
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 3rem;
-  margin-bottom: 2rem;
+    max-width: 90%;
+    text-align: center;
+    color: $light-black;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-bottom: 2rem;
 }
 
 @mixin projectTitleComponent {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1rem;
-  font-size: 2.2rem;
-  color: $black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    color: $black;
 }

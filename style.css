@@ -130,6 +130,70 @@ a {
   transition: all 0.3s;
 }
 
+.project-technology {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 8rem;
+  height: 8rem;
+  margin-right: 1rem;
+}
+
+.project-technologies {
+  margin-bottom: 4rem;
+  height: 8rem;
+  width: 100%;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project-technologies .image-1 {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.project-technologies .image-2 {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.project-technologies .image-3 {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.project-technologies .image-4 {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.project-technologies .image-5 {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.technologies-used-text {
+  font-size: 1.4rem;
+}
+
 .Project-btns {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -293,7 +357,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 3%;
+  border-radius: 2%;
+  min-height: 100vh;
   max-width: 90%;
   padding: 2rem;
   margin: auto auto 2rem auto;
@@ -342,6 +407,68 @@ a {
   background: #ffeef2;
 }
 
+.Projects .FFXIV-Project {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2%;
+  min-height: 100vh;
+  max-width: 90%;
+  padding: 2rem;
+  margin: auto auto 2rem auto;
+  background: #fddeef;
+}
+
+.Projects .FFXIV-Project h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  color: #2b2b2b;
+}
+
+.Projects .FFXIV-Project img {
+  max-width: 90%;
+  margin-bottom: 2rem;
+}
+
+.Projects .FFXIV-Project p {
+  max-width: 90%;
+  text-align: center;
+  color: rgba(43, 43, 43, 0.9);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.Projects .FFXIV-Project a {
+  background: none;
+  border: none;
+  border-radius: 4%;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.Projects .FFXIV-Project a:hover {
+  background: #ffeef2;
+}
+
 .Projects .Pexels-Project {
   position: relative;
   display: -webkit-box;
@@ -354,7 +481,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 3%;
+  border-radius: 2%;
+  min-height: 100vh;
   max-width: 90%;
   padding: 2rem;
   margin: auto auto 2rem auto;
@@ -434,11 +562,13 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 3%;
+  border-radius: 2%;
+  min-height: 100vh;
   max-width: 90%;
   padding: 2rem;
   margin: auto auto 2rem auto;
   background: #fddeef;
+  min-height: unset;
   background: rgba(43, 43, 43, 0.9);
   position: relative;
   padding: 0;
@@ -655,6 +785,7 @@ a {
     font-size: 2rem;
   }
   .Projects {
+    display: block;
     min-height: 80vh;
     background: #ffeef2;
   }
@@ -708,6 +839,41 @@ a {
     font-size: 2rem;
   }
   .Projects .Projects-container .Blogr-Project .Project-btns a:hover {
+    background: #ffeef2;
+  }
+  .Projects .Projects-container .FFXIV-Project {
+    width: 50rem;
+    height: 75rem;
+    margin: 0;
+    padding: 0;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .Projects .Projects-container .FFXIV-Project h3 {
+    margin: 0;
+    padding: 0;
+  }
+  .Projects .Projects-container .FFXIV-Project p {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    text-align: left;
+  }
+  .Projects .Projects-container .FFXIV-Project img {
+    padding: 0;
+    margin: 0;
+  }
+  .Projects .Projects-container .FFXIV-Project .Project-btns a {
+    background: none;
+    border: none;
+    border-radius: 4%;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-size: 2rem;
+  }
+  .Projects .Projects-container .FFXIV-Project .Project-btns a:hover {
     background: #ffeef2;
   }
   .Projects .Projects-container .Pexels-Project {

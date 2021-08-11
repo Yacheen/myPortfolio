@@ -1,129 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <script src="https://kit.fontawesome.com/f8f13875b2.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
-    <title>Yassin | Portfolio</title>
-    <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
-</head>
-<body>
-    <section class="introduction">
-        <nav>
-            <div class="nav-content">
-                <button id="logo" alt="home button" type="button">
-                    <a href="#top">
-                        <img src="./Images/Glacial_Storm.png" alt="home button"/>
-                        <p id="Yassin-icon">Yassin's Portfolio</p>
-                    </a>
-                </button>
-                
-                <ul class="navigation-links">
-                    <a href="#About-Me"><li class="items item-1">About</li></a>
-                    <a href="#Projects"><li class="items item-2">Projects</li></a>
-                    <a href="#Contact"><li class="items item-3">Contact Me</li></a>
-                </ul>
-                <div id="burger-button">
-                    <i class="fas fa-bars fa-3x"></i>
-                </div>
-            </div>  
-        </nav>
-        <!-- front end web developa, about section appearing just under, then projects then contact-->
-        <div class="introduction-about">
-            <div class="intro-text">
-                <h1>Yassin Moussaoui</h1>
-                <h2>Front End Web Developer</h2>
-                <button type="button"><a href="#Projects">Projects</a></button>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/f8f13875b2.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
+        <title>Yassin | Portfolio</title>
+        <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+    </head>
+    <body>
+        <section class="introduction">
+            <nav>
+                <div class="nav-content">
+                    <button id="logo" alt="home button" type="button">
+                        <a href="#top">
+                            <img
+                                src="./Images/Glacial_Storm.png"
+                                alt="home button"
+                            />
+                            <p id="Yassin-icon">Yassin's Portfolio</p>
+                        </a>
+                    </button>
 
-            </div>
+                    <ul class="navigation-links">
+                        <a href="#About-Me"
+                            ><li class="items item-1">About</li></a
+                        >
+                        <a href="#Projects"
+                            ><li class="items item-2">Projects</li></a
+                        >
+                        <a href="#Contact"
+                            ><li class="items item-3">Contact Me</li></a
+                        >
+                    </ul>
+                    <div id="burger-button">
+                        <i class="fas fa-bars fa-3x"></i>
+                    </div>
+                </div>
+            </nav>
+            <!-- front end web developa, about section appearing just under, then projects then contact-->
+            <div class="introduction-about">
+                <div class="intro-text">
+                    <h1>Yassin Moussaoui</h1>
+                    <h2>Front End Web Developer</h2>
+                    <button type="button">
+                        <a href="#Projects">Projects</a>
+                    </button>
+                </div>
                 <div class="intro-image-container">
-                <img src="./Images/professional-intro-photo-compressed.jpeg" />
-            </div>
-            
-
-        </div>
-    </section>
-    <section class="About-Me" id="About-Me">
-        <h3>About Me</h3>
-        <div class="about-me-text-container">
-            <p>Nice to meet you! My name is Yassin, and I've recently made a career change from going to school
-                for marketing
-                to <strong style="font-size: 2.6rem;">Self-Taught Web Development</strong>, and ever since have fell in love.<br><br>
-                I've spent most of my summer regarding
-                code improving my <strong style="font-size: 2.6rem;">HTML, CSS, and JS</strong> skills through creating <strong>responsive</strong> websites & projects with <strong style="font-size: 2.6rem;">Git.</strong><br><br>
-                As of late, I am planning to pickup <strong style="font-size: 2.6rem;">React</strong> and other technologies soon to help begin creating better projects.<br><br>I'm independent and hungry to improve and learn whatever is needed in order to start working
-                in software development, and appreciate you for looking at my listed projects below.
-            </p>
-        </div>
-
-    </section>
-    <section class="Projects" id="Projects">
-        <h2>Projects</h2>
-        <div class="Projects-container">
-            <div class="Blogr-Project">
-                <h3>Mock Landing Page</h3>
-                <img src="./Images/desktop-preview.jpg" />
-                <p>This project was made on Frontendmentors, a website that provides real-world problems
-                    to train web development skills. Assets & requirements were provided, such as images and brand desired 
-                    in order to achieve a professional solution,
-                    significantly improving my design and problem-solving skills 
-                </p>
-                <div class="Project-btns">
-                    <a href="https://mock-landing-page.yassinweb.dev" target="_blank">View Project</a>
-                    <a href="https://github.com/Yacheen/Blogr-landing-page" target="_blank">View Code</a>
+                    <img
+                        src="./Images/professional-intro-photo-compressed.jpeg"
+                    />
                 </div>
             </div>
-    
-            <div class="Pexels-Project">
-                <h3>Pexels Photo Viewer</h3>
-                <img src="./Images/pexelsscreenshotforprojects.png"/>
-                <p>This website fetches from the Pexels website API
-                    to display a gallery of <strong>ONLY</strong> curated, high quality photos from the community.
-                    Users can search for whatever kind of photo, as long as someone has uploaded
-                    something sort of relevant to the query. This Photography project taught me how to use APIs, as well as
-                    important Javascript fundamentals to create a dynamic photo generator. 
-                </p>
-                <div class="Project-btns">
-                    <a href="https://photo-viewer.yassinweb.dev/" target="_blank">View Project</a>
-                    <a href="https://github.com/Yacheen/PexelsAPI-photo-viewer" target="_blank">View Code</a>
-    
-                </div>
-            </div>
-        </div> 
-    </section>
-    
-    <section class="Contact" id="Contact">
-        <h3>Contact Me</h3>
-        <div class="Contact-content">
-            <div class="contact-message">
+        </section>
+        <section class="About-Me" id="About-Me">
+            <h3>About Me</h3>
+            <div class="about-me-text-container">
                 <p>
-                Please feel free to reach out if interested;
-                I appreciate you taking the time to view my projects.
+                    Nice to meet you! My name is Yassin, and I've recently made
+                    a career change from going to school for marketing to
+                    <strong style="font-size: 2.6rem"
+                        >Self-Taught Web Development</strong
+                    >, and ever since have fell in love.<br /><br />
+                    I've spent most of my summer regarding code improving my
+                    <strong style="font-size: 2.6rem">HTML, CSS, and JS</strong>
+                    skills through creating <strong>responsive</strong> websites
+                    & projects with
+                    <strong style="font-size: 2.6rem">Git.</strong><br /><br />
+                    As of late, I am planning to pickup
+                    <strong style="font-size: 2.6rem">React</strong> and other
+                    technologies soon to help begin creating better projects.<br /><br />I'm
+                    independent and hungry to improve and learn whatever is
+                    needed in order to start working in software development,
+                    and appreciate you for looking at my listed projects below.
                 </p>
             </div>
-        </div>
-               <div class="email-link">
-                   
-                   <a href="mailto:yassinmoussaouibusiness@gmail.com" target="_blank">
-                        <span style="color: pink;">
-                            <i class="fas fa-envelope fa-3x"></i>
-                        </span>
-                        <p>Email Me</p>
-                    </a>
-                    <a href="https://github.com/Yacheen?tab=repositories" target="_blank">
-                        <span style="color: pink; ">
-                            <i class="fab fa-github fa-3x"></i>
-                        </span>
-                        <p>Github</p>
-                    </a>  
-                   
-        </div>
-    </section>
-    <script src="app.js"></script>
-</body>
+        </section>
+        <section class="Projects" id="Projects">
+            <h2>Projects</h2>
+
+            <div class="Projects-container">
+                <div class="Blogr-Project">
+                    <h3>Mock Landing Page</h3>
+
+                    <h4 class="technologies-used-text">Technologies used</h4>
+                    <div class="project-technologies">
+                        <div class="project-technology">
+                            <img
+                                class="image-1"
+                                src="./Images/htmlcssjsIcon.png"
+                            />
+                            HTML/CSS/JS
+                        </div>
+                        <div class="project-technology">
+                            <img class="image-2" src="./Images/sassIcon.png" />
+                            Sass
+                        </div>
+                    </div>
+
+                    <img src="./Images/desktop-preview.jpg" />
+                    <p>
+                        This project was made on Frontendmentors, a website that
+                        provides real-world problems to train web development
+                        skills. Assets & requirements were provided, such as
+                        images and brand desired in order to achieve a
+                        professional solution, significantly improving my design
+                        and problem-solving skills
+                    </p>
+                    <div class="Project-btns">
+                        <a
+                            href="https://mock-landing-page.yassinweb.dev"
+                            target="_blank"
+                            >View Project</a
+                        >
+                        <a
+                            href="https://github.com/Yacheen/Blogr-landing-page"
+                            target="_blank"
+                            >View Code</a
+                        >
+                    </div>
+                </div>
+
+                <div class="FFXIV-Project">
+                    <h3>FFXIV Friendslist</h3>
+                    <h4 class="technologies-used-text">Technologies used</h4>
+                    <div class="project-technologies">
+                        <div class="project-technology">
+                            <img class="image-3" src="./Images/reactIcon.png" />
+                            <p>React</p>
+                        </div>
+                        <div class="project-technology">
+                            <img
+                                class="image-1"
+                                src="./Images/htmlcssjsIcon.png"
+                            />
+                            HTML/CSS/JS
+                        </div>
+                        <div class="project-technology">
+                            <img class="image-2" src="./Images/sassIcon.png" />
+                            Sass
+                        </div>
+                        <div class="project-technology">
+                            <img
+                                class="image-4"
+                                src="./Images/materialuiIcon.png"
+                            />
+                            Material Ui
+                        </div>
+                        <div class="project-technology">
+                            <img class="image-5" src="./Images/gsapIcon.png" />
+                            GSAP
+                        </div>
+                    </div>
+                    <img src="./Images/ffxivfriendslistscreenshot.png" />
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Delectus maxime voluptatum quo quis aspernatur
+                        blanditiis dicta consequuntur quasi laboriosam eaque
+                        beatae ea, ratione repellat perspiciatis tempora nulla
+                        sint laborum deserunt. esifdgbsdfoighesfogndfg sdfgkn
+                        sdfog dhsfg oihndfjongisdofgndsf gon dsof gndofgdfgon
+                    </p>
+                    <div class="Project-btns">
+                        <a
+                            href="https://mock-landing-page.yassinweb.dev"
+                            target="_blank"
+                            >View Project</a
+                        >
+                        <a
+                            href="https://github.com/Yacheen/Blogr-landing-page"
+                            target="_blank"
+                            >View Code</a
+                        >
+                    </div>
+                </div>
+
+                <div class="Pexels-Project">
+                    <h3>Pexels Photo Viewer</h3>
+                    <h4 class="technologies-used-text">Technologies used</h4>
+                    <div class="project-technologies">
+                        <div class="project-technology">
+                            <img
+                                class="image-1"
+                                src="./Images/htmlcssjsIcon.png"
+                            />
+                            HTML/CSS/JS
+                        </div>
+                        <div class="project-technology">
+                            <img class="image-2" src="./Images/sassIcon.png" />
+                            Sass
+                        </div>
+                    </div>
+                    <img src="./Images/pexelsscreenshotforprojects.png" />
+                    <p>
+                        This website fetches from the Pexels website API to
+                        display a gallery of <strong>ONLY</strong> curated, high
+                        quality photos from the community. Users can search for
+                        whatever kind of photo, as long as someone has uploaded
+                        something sort of relevant to the query. This
+                        Photography project taught me how to use APIs, as well
+                        as important Javascript fundamentals to create a dynamic
+                        photo generator.
+                    </p>
+                    <div class="Project-btns">
+                        <a
+                            href="https://photo-viewer.yassinweb.dev/"
+                            target="_blank"
+                            >View Project</a
+                        >
+                        <a
+                            href="https://github.com/Yacheen/PexelsAPI-photo-viewer"
+                            target="_blank"
+                            >View Code</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Contact" id="Contact">
+            <h3>Contact Me</h3>
+            <div class="Contact-content">
+                <div class="contact-message">
+                    <p>
+                        Please feel free to reach out if interested; I
+                        appreciate you taking the time to view my projects.
+                    </p>
+                </div>
+            </div>
+            <div class="email-link">
+                <a
+                    href="mailto:yassinmoussaouibusiness@gmail.com"
+                    target="_blank"
+                >
+                    <span style="color: pink">
+                        <i class="fas fa-envelope fa-3x"></i>
+                    </span>
+                    <p>Email Me</p>
+                </a>
+                <a
+                    href="https://github.com/Yacheen?tab=repositories"
+                    target="_blank"
+                >
+                    <span style="color: pink">
+                        <i class="fab fa-github fa-3x"></i>
+                    </span>
+                    <p>Github</p>
+                </a>
+            </div>
+        </section>
+        <script src="app.js"></script>
+    </body>
 </html>
