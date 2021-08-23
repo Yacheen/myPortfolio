@@ -860,9 +860,10 @@ a {
     -ms-grid-columns: (minmax(40rem, 1fr))[auto-fill];
         grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
     row-gap: 6rem;
-    margin: auto;
     padding-bottom: 5rem;
-    min-width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-items: center;
   }
   .Projects .Projects-container .Blogr-Project {
     width: 50rem;
@@ -900,6 +901,7 @@ a {
     background: #ffeef2;
   }
   .Projects .Projects-container .FFXIV-Project {
+    margin: auto;
     width: 50rem;
     height: 75rem;
     margin: 0;
@@ -935,6 +937,7 @@ a {
     background: #ffeef2;
   }
   .Projects .Projects-container .Fylo-Project {
+    margin: auto;
     width: 50rem;
     height: 75rem;
     margin: 0;
@@ -970,6 +973,7 @@ a {
     background: #ffeef2;
   }
   .Projects .Projects-container .Pexels-Project {
+    margin: auto;
     width: 50rem;
     height: 75rem;
     margin: 0;

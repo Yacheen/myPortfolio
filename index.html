@@ -15,11 +15,12 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         <title>Yassin | Portfolio</title>
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     </head>
     <body>
         <section class="introduction">
             <nav>
-                <div class="nav-content">
+                <div class="nav-content" data-aos="fade" data-aos-duration="1500">
                     <button id="logo" alt="home button" type="button">
                         <a href="#top">
                             <img src="./Images/Glacial_Storm.png" alt="home button" />
@@ -38,7 +39,7 @@
                 </div>
             </nav>
             <!-- front end web developa, about section appearing just under, then projects then contact-->
-            <div class="introduction-about">
+            <div class="introduction-about" data-aos="fade-left" data-aos-duration="1500">
                 <div class="intro-text">
                     <h1>Yassin Moussaoui</h1>
                     <h2>Front End Web Developer</h2>
@@ -52,8 +53,8 @@
             </div>
         </section>
         <section class="About-Me" id="About-Me">
-            <h3>About Me</h3>
-            <div class="about-me-text-container">
+            <h3 data-aos="fade" data-aos-duration="1500">About Me</h3>
+            <div class="about-me-text-container" data-aos="fade" data-aos-duration="1500">
                 <p>
                     Nice to meet you! My name is Yassin, and I've recently made a career change from going to school for marketing to
                     <strong style="font-size: 2rem">Web Development</strong>, and ever since have fell in love.<br /><br />
@@ -71,7 +72,7 @@
         <section class="Projects" id="Projects">
             <h2>Projects</h2>
 
-            <div class="Projects-container">
+            <div class="Projects-container" data-aos="fade-left" data-aos-duration="1500">
                 <div class="Blogr-Project">
                     <h3>Mock Landing Page</h3>
 
@@ -193,8 +194,8 @@
         </section>
 
         <section class="Contact" id="Contact">
-            <h3>Contact Me</h3>
-            <div class="Contact-content">
+            <h3 data-aos="fade" data-aos-duration="1500">Contact Me</h3>
+            <div class="Contact-content" data-aos="fade" data-aos-duration="1500">
                 <div class="contact-message">
                     <p>Please feel free to reach out if interested</p>
                 </div>
@@ -215,5 +216,9 @@
             </div>
         </section>
         <script src="app.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

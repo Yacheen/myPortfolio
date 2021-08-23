@@ -128,16 +128,17 @@
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
             row-gap: 6rem;
-
-            margin: auto;
             padding-bottom: 5rem;
-            min-width: 90%;
+            max-width: 100%;
+            margin: 0 auto;
 
+            justify-items: center;
             .Blogr-Project {
                 width: 50rem;
                 height: 75rem;
                 margin: 0;
                 padding: 0;
+
                 justify-content: space-around;
 
                 h3 {
@@ -169,6 +170,7 @@
             }
 
             .FFXIV-Project {
+                margin: auto;
                 width: 50rem;
                 height: 75rem;
                 margin: 0;
@@ -201,6 +203,7 @@
                 }
             }
             .Fylo-Project {
+                margin: auto;
                 width: 50rem;
                 height: 75rem;
                 margin: 0;
@@ -232,6 +235,7 @@
                 }
             }
             .Pexels-Project {
+                margin: auto;
                 width: 50rem;
                 height: 75rem;
                 margin: 0;
