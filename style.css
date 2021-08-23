@@ -956,6 +956,19 @@ a {
     padding: 0;
     margin: 0;
   }
+  .Projects .Projects-container .Fylo-Project .Project-btns a {
+    background: none;
+    border: none;
+    border-radius: 4%;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-size: 2rem;
+  }
+  .Projects .Projects-container .Fylo-Project .Project-btns a:hover {
+    background: #ffeef2;
+  }
   .Projects .Projects-container .Pexels-Project {
     width: 50rem;
     height: 75rem;
