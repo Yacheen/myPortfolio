@@ -117,6 +117,13 @@ a {
     align-items: center;
     position: relative;
     flex-direction: column;
+    a {
+        color: skyblue;
+        text-decoration: underline;
+        &:hover {
+            color: gold;
+        }
+    }
 
     h3 {
         @include projectTitleComponent;

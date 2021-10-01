@@ -85,8 +85,8 @@ nav .navigation-links {
   transition: all ease-out 0.5s;
   -webkit-transform: translateY(-70%);
           transform: translateY(-70%);
-  -webkit-filter: drop-shadow(0 0 2rem black);
-          filter: drop-shadow(0 0 2rem black);
+  -webkit-box-shadow: 0 6px 12px 0 black;
+          box-shadow: 0 6px 12px 0 black;
 }
 
 nav .navigation-links li {
@@ -279,6 +279,15 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.About-Me a {
+  color: skyblue;
+  text-decoration: underline;
+}
+
+.About-Me a:hover {
+  color: gold;
 }
 
 .About-Me h3 {
@@ -867,9 +876,9 @@ a {
   }
   .Projects .Projects-container .Blogr-Project {
     width: 50rem;
-    height: 75rem;
+    height: auto;
     margin: 0;
-    padding: 0;
+    padding: 2rem;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
@@ -903,9 +912,9 @@ a {
   .Projects .Projects-container .FFXIV-Project {
     margin: auto;
     width: 50rem;
-    height: 75rem;
+    height: auto;
     margin: 0;
-    padding: 0;
+    padding: 2rem;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
@@ -939,9 +948,9 @@ a {
   .Projects .Projects-container .Fylo-Project {
     margin: auto;
     width: 50rem;
-    height: 75rem;
+    height: auto;
     margin: 0;
-    padding: 0;
+    padding: 2rem;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
@@ -975,9 +984,9 @@ a {
   .Projects .Projects-container .Pexels-Project {
     margin: auto;
     width: 50rem;
-    height: 75rem;
+    height: auto;
     margin: 0;
-    padding: 0;
+    padding: 2rem;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }

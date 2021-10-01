@@ -51,7 +51,7 @@ nav {
     background: $black;
     transition: all ease-out 0.5s;
     transform: translateY(-70%);
-    filter: drop-shadow(0 0 2rem black);
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,1);
     li {
       cursor: pointer;
       padding: 1rem;
