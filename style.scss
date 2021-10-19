@@ -160,6 +160,7 @@ a {
     flex-direction: column;
     position: relative;
     height: auto;
+    overflow-x: hidden;
     h2 {
         display: flex;
         justify-content: center;
