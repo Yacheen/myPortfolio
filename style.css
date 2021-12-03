@@ -355,6 +355,72 @@ a {
   color: #2b2b2b;
 }
 
+.Projects .yassinCodes-Project {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2%;
+  min-height: 50vh;
+  max-height: auto;
+  max-width: 90%;
+  padding: 2rem;
+  margin: auto auto 2rem auto;
+  background: #fddeef;
+  -webkit-box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
+          box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
+  background: rgba(117, 170, 250, 0.8);
+}
+
+.Projects .yassinCodes-Project h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  color: #2b2b2b;
+}
+
+.Projects .yassinCodes-Project img {
+  max-width: 90%;
+  margin-bottom: 2rem;
+}
+
+.Projects .yassinCodes-Project p {
+  max-width: 90%;
+  text-align: center;
+  color: rgba(43, 43, 43, 0.9);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.Projects .yassinCodes-Project a {
+  background: none;
+  border: none;
+  border-radius: 4%;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.Projects .yassinCodes-Project a:hover {
+  background: #ffeef2;
+}
+
 .Projects .Blogr-Project {
   position: relative;
   display: -webkit-box;
@@ -368,11 +434,14 @@ a {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 2%;
-  min-height: 100vh;
+  min-height: 50vh;
+  max-height: auto;
   max-width: 90%;
   padding: 2rem;
   margin: auto auto 2rem auto;
   background: #fddeef;
+  -webkit-box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
+          box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
 }
 
 .Projects .Blogr-Project h3 {
@@ -430,11 +499,14 @@ a {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 2%;
-  min-height: 100vh;
+  min-height: 50vh;
+  max-height: auto;
   max-width: 90%;
   padding: 2rem;
   margin: auto auto 2rem auto;
   background: #fddeef;
+  -webkit-box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
+          box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
 }
 
 .Projects .FFXIV-Project h3 {
@@ -479,6 +551,71 @@ a {
   background: #ffeef2;
 }
 
+.Projects .Blizz-Project {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2%;
+  min-height: 50vh;
+  max-height: auto;
+  max-width: 90%;
+  padding: 2rem;
+  margin: auto auto 2rem auto;
+  background: #fddeef;
+  -webkit-box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
+          box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
+}
+
+.Projects .Blizz-Project h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  color: #2b2b2b;
+}
+
+.Projects .Blizz-Project img {
+  max-width: 90%;
+  margin-bottom: 2rem;
+}
+
+.Projects .Blizz-Project p {
+  max-width: 90%;
+  text-align: center;
+  color: rgba(43, 43, 43, 0.9);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.Projects .Blizz-Project a {
+  background: none;
+  border: none;
+  border-radius: 4%;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.Projects .Blizz-Project a:hover {
+  background: #ffeef2;
+}
+
 .Projects .Fylo-Project {
   position: relative;
   display: -webkit-box;
@@ -492,11 +629,14 @@ a {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 2%;
-  min-height: 100vh;
+  min-height: 50vh;
+  max-height: auto;
   max-width: 90%;
   padding: 2rem;
   margin: auto auto 2rem auto;
   background: #fddeef;
+  -webkit-box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
+          box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
 }
 
 .Projects .Fylo-Project h3 {
@@ -554,11 +694,14 @@ a {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 2%;
-  min-height: 100vh;
+  min-height: 50vh;
+  max-height: auto;
   max-width: 90%;
   padding: 2rem;
   margin: auto auto 2rem auto;
   background: #fddeef;
+  -webkit-box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
+          box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
 }
 
 .Projects .Pexels-Project h3 {
@@ -635,25 +778,30 @@ a {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 2%;
-  min-height: 100vh;
+  min-height: 50vh;
+  max-height: auto;
   max-width: 90%;
   padding: 2rem;
   margin: auto auto 2rem auto;
   background: #fddeef;
+  -webkit-box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
+          box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
   min-height: unset;
+  min-width: 300px;
   background: rgba(43, 43, 43, 0.9);
   position: relative;
   padding: 0;
 }
 
 .Contact .Contact-content .contact-message {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 2rem;
+  padding: 1.2rem;
 }
 
 .Contact .Contact-content .contact-message p {
@@ -874,6 +1022,80 @@ a {
     max-width: 100%;
     margin: 0 auto;
     justify-items: center;
+  }
+  .Projects .Projects-container .Blizz-Project {
+    width: 50rem;
+    height: auto;
+    margin: 0;
+    padding: 2rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .Projects .Projects-container .Blizz-Project h3 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+  .Projects .Projects-container .Blizz-Project p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 2rem;
+  }
+  .Projects .Projects-container .Blizz-Project img {
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+  .Projects .Projects-container .Blizz-Project .Project-btns a {
+    background: none;
+    border: none;
+    border-radius: 4%;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-size: 2rem;
+  }
+  .Projects .Projects-container .Blizz-Project .Project-btns a:hover {
+    background: #ffeef2;
+  }
+  .Projects .Projects-container .yassinCodes-Project {
+    width: 50rem;
+    height: auto;
+    margin: 0;
+    padding: 2rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .Projects .Projects-container .yassinCodes-Project h3 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+  .Projects .Projects-container .yassinCodes-Project p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 2rem;
+  }
+  .Projects .Projects-container .yassinCodes-Project img {
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+  .Projects .Projects-container .yassinCodes-Project .Project-btns a {
+    background: none;
+    border: none;
+    border-radius: 4%;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-size: 2rem;
+  }
+  .Projects .Projects-container .yassinCodes-Project .Project-btns a:hover {
+    background: #ffeef2;
   }
   .Projects .Projects-container .Blogr-Project {
     width: 50rem;

@@ -131,8 +131,80 @@
             padding-bottom: 5rem;
             max-width: 100%;
             margin: 0 auto;
-
             justify-items: center;
+            .Blizz-Project { 
+                width: 50rem;
+                height: auto;
+                margin: 0;
+                padding: 2rem;
+                justify-content: space-around;
+
+                h3 {
+                    margin: 0;
+                    padding: 0;
+                    margin-bottom: 2rem;
+                }
+                p {
+                    margin: 0;
+                    padding: 0;
+                    text-align: left;
+                    font-size: 2rem;
+                }
+                img {
+                    margin: 0;
+                    margin-bottom: 2rem;
+                    padding: 0;
+                }
+
+                //edit this next
+                .Project-btns {
+                    a {
+                        @include smolButtonsComponent;
+                        border: 1px solid black;
+                        font-size: 2rem;
+                        &:hover {
+                            background: $light-pink;
+                        }
+                    }
+                }
+
+            }
+            .yassinCodes-Project {
+                width: 50rem;
+                height: auto;
+                margin: 0;
+                padding: 2rem;
+                justify-content: space-around;
+
+                h3 {
+                    margin: 0;
+                    padding: 0;
+                    margin-bottom: 2rem;
+                }
+                p {
+                    margin: 0;
+                    padding: 0;
+                    text-align: left;
+                    font-size: 2rem;
+                }
+                img {
+                    margin: 0;
+                    margin-bottom: 2rem;
+                    padding: 0;
+                }
+
+                //edit this next
+                .Project-btns {
+                    a {
+                        @include smolButtonsComponent;
+                        border: 1px solid black;
+                        font-size: 2rem;
+                        &:hover {
+                            background: $light-pink;
+                        }
+                    }
+                }
+            }
             .Blogr-Project {
                 width: 50rem;
                 height: auto;
