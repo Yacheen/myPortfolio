@@ -311,6 +311,15 @@ a {
   background: rgba(43, 43, 43, 0.9);
   padding: 1rem;
   margin: 2rem;
+  position: relative;
+}
+
+.About-Me .about-me-text-container div {
+  width: 100%;
+}
+
+.About-Me .about-me-text-container div img {
+  max-height: 320px;
 }
 
 .About-Me .about-me-text-container > * {
@@ -999,8 +1008,18 @@ a {
   }
   .About-Me .about-me-text-container {
     width: 90rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .About-Me .about-me-text-container img {
+    min-height: 500px;
   }
   .About-Me .about-me-text-container p {
+    max-width: 50%;
     text-align: left;
     font-size: 2rem;
   }
