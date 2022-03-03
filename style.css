@@ -310,16 +310,12 @@ a {
   height: auto;
   background: rgba(43, 43, 43, 0.9);
   padding: 1rem;
-  margin: 2rem;
+  margin: 0 auto;
   position: relative;
 }
 
 .About-Me .about-me-text-container div {
   width: 100%;
-}
-
-.About-Me .about-me-text-container div img {
-  max-height: 320px;
 }
 
 .About-Me .about-me-text-container > * {
@@ -385,7 +381,6 @@ a {
   background: #fddeef;
   -webkit-box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
           box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
-  background: rgba(117, 170, 250, 0.8);
 }
 
 .Projects .yassinCodes-Project h3 {
@@ -427,6 +422,71 @@ a {
 }
 
 .Projects .yassinCodes-Project a:hover {
+  background: #ffeef2;
+}
+
+.Projects .audiophile-Project {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2%;
+  min-height: 50vh;
+  max-height: auto;
+  max-width: 90%;
+  padding: 2rem;
+  margin: auto auto 2rem auto;
+  background: #fddeef;
+  -webkit-box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
+          box-shadow: 0px 4px 8px rgba(26, 26, 26, 0.4);
+}
+
+.Projects .audiophile-Project h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  color: #2b2b2b;
+}
+
+.Projects .audiophile-Project img {
+  max-width: 90%;
+  margin-bottom: 2rem;
+}
+
+.Projects .audiophile-Project p {
+  max-width: 90%;
+  text-align: center;
+  color: rgba(43, 43, 43, 0.9);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.Projects .audiophile-Project a {
+  background: none;
+  border: none;
+  border-radius: 4%;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.Projects .audiophile-Project a:hover {
   background: #ffeef2;
 }
 
@@ -1007,19 +1067,23 @@ a {
     font-size: 4rem;
   }
   .About-Me .about-me-text-container {
-    width: 90rem;
+    width: 70rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
   }
   .About-Me .about-me-text-container img {
     min-height: 500px;
   }
   .About-Me .about-me-text-container p {
-    max-width: 50%;
+    max-width: 90%;
     text-align: left;
     font-size: 2rem;
   }
@@ -1114,6 +1178,41 @@ a {
     font-size: 2rem;
   }
   .Projects .Projects-container .yassinCodes-Project .Project-btns a:hover {
+    background: #ffeef2;
+  }
+  .Projects .Projects-container .audiophile-Project {
+    width: 50rem;
+    height: auto;
+    margin: 0;
+    padding: 2rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .Projects .Projects-container .audiophile-Project h3 {
+    margin: 0;
+    padding: 0;
+  }
+  .Projects .Projects-container .audiophile-Project p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 2rem;
+  }
+  .Projects .Projects-container .audiophile-Project img {
+    margin: 0;
+    padding: 0;
+  }
+  .Projects .Projects-container .audiophile-Project .Project-btns a {
+    background: none;
+    border: none;
+    border-radius: 4%;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-size: 2rem;
+  }
+  .Projects .Projects-container .audiophile-Project .Project-btns a:hover {
     background: #ffeef2;
   }
   .Projects .Projects-container .Blogr-Project {

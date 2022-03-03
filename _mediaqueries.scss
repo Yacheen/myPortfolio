@@ -110,14 +110,16 @@
             font-size: 4rem;
         }
         .about-me-text-container {
-            width: 90rem;
+            width: 70rem;
             display: flex;
             align-items: center;
+            justify-content: center;
+            text-align: center;
             img {
                 min-height: 500px;
             }
             p {
-                max-width: 50%;
+                max-width: 90%;
                 text-align: left;
                 font-size: 2rem;
             }
@@ -199,6 +201,38 @@
                 }
 
                 //edit this next
+                .Project-btns {
+                    a {
+                        @include smolButtonsComponent;
+                        border: 1px solid black;
+                        font-size: 2rem;
+                        &:hover {
+                            background: $light-pink;
+                        }
+                    }
+                }
+            }
+            .audiophile-Project { 
+                width: 50rem;
+                height: auto;
+                margin: 0;
+                padding: 2rem;
+                justify-content: space-around;
+                h3 {
+                    margin: 0;
+                    padding: 0;
+                }
+                p {
+                    margin: 0;
+                    padding: 0;
+                    text-align: left;
+                    font-size: 2rem;
+
+                }
+                img {
+                    margin: 0;
+                    padding: 0;
+                }
                 .Project-btns {
                     a {
                         @include smolButtonsComponent;

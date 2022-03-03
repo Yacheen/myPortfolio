@@ -134,16 +134,15 @@ a {
 
     .about-me-text-container {
         max-width: 80%;
+        
         height: auto;
         background: $light-black;
         padding: 1rem;
-        margin: 2rem;
+        margin: 0 auto;
         position: relative;
         div {
             width: 100%;
-            img {
-                max-height: 320px;
-            }
+           
         }
 
         > * {
@@ -176,10 +175,12 @@ a {
         font-size: 2.6rem;
         color: $black;
     }
+    //audiophile project
+    
     //B L O G R      P R O J E C T
     .yassinCodes-Project {
         @include projectStructureComponent;
-        background: hsla(216, 93%, 72%, 0.8);
+        
         h3 {
             @include projectTitleComponent;
         }
@@ -192,6 +193,27 @@ a {
             @include projectParagraphComponent;
         }
 
+        a {
+            @include smolButtonsComponent;
+            border: 1px solid black;
+            padding: 1rem;
+            &:hover {
+                background: $light-pink;
+            }
+        }
+    }
+    .audiophile-Project {
+        @include projectStructureComponent;
+        h3 {
+            @include projectTitleComponent;
+        }
+        img {
+            max-width: 90%;
+            margin-bottom: 2rem;
+        }
+        p {
+            @include projectParagraphComponent;
+        }
         a {
             @include smolButtonsComponent;
             border: 1px solid black;
